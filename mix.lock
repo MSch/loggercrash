@@ -1,0 +1,6 @@
+%{"conform": {:package, "0.10.0"},
+  "cowboy": {:package, "1.0.0"},
+  "cowlib": {:package, "1.0.0"},
+  "exrm": {:package, "0.14.0"},
+  "plug": {:package, "0.5.3"},
+  "ranch": {:package, "1.0.0"}}
