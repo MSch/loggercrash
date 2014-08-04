@@ -8,7 +8,7 @@ defmodule Loggertest do
     import Supervisor.Spec, warn: false
 
     children = [
-      BP.Plug.child_spec,
+      FailingPlug.child_spec,
     ]
 
     IO.inspect Application.start(:logger)
